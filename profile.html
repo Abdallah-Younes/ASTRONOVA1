@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroNova</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- start of header -->
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/logo.png" alt="Logo" width="100" height="70" class="d-inline-block align-text-center">
+                    <span>ASTRONOVA</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trip.html">Trip</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Quiz</a>
+                    </li>
+                    <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+						  ٍSpace
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark">
+						  <li><a class="dropdown-item" href="s-s.html">Solar System</a></li>
+						  <li><a class="dropdown-item" href="exo.html">ExoPlanets</a></li>
+						  <li><a class="dropdown-item" href="B-H.html">Black Hole</a></li>
+						  <li><a class="dropdown-item" href="3d.html">3D Simulation</a></li>
+						</ul>
+					  </li>
+                    <li>
+                       <a href="login.html">
+                        <button class="btn">
+                            <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
+                                <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
+                            </svg>
+                            <span class="text" id="login">Login</span>
+                        </button>
+					</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <!-- end of header -->
+    <!-- start of main sec -->
+    <section>
+      <div class="container">
+        <div class="profile-header">
+          <div class="profile-img">
+            <img src="Images/aaaaaaaaaaaa.png" width="200" alt="Profile Image">
+          </div>
+          <div class="profile-nav-info" id="name">
+            Guest
+          </div>
+          
+          <div class="profile-option dropdown">
+            <div class="notification" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-bell"></i>
+              <span class="alert-message">3</span>
+            </div>
+            <ul class="dropdown-menu bg-transparent cl">
+              <li><a class="dropdown-item bg-danger cl" href="quiz.html">Be careful your quiz time up !!</a></li>
+              <li><a class="dropdown-item bg-secondary cl" href="home.html">Welcome to ASTRONOVA</a></li>
+              <li><a class="dropdown-item bg-warning cl" href="profile.html">Warnning ! activet your email </a></li>
+            </ul>
+          </div>
+          
+        </div>
+      
+        <div class="main-bd">
+          <div class="left-side">
+            <div class="profile-side">
+              <!-- <p class="mobile-no"><i class="fa fa-phone"></i> +020120xxxxx700</p> -->
+              <p class="user-mail" id="email"><i class="fa fa-envelope"></i> younes@gmail.com</p>
+              <div class="user-bio">
+                <h3>Bio</h3>
+                <p class="bio">
+                  Hi,As an avid space enthusiast, I am passionate about unraveling the mysteries of the universe and sharing this knowledge with others. I focus on creating interactive educational platforms that explore everything from the wonders of the solar system to the vast unknown of distant galaxies. Combining advanced technology with engaging content, I aim to inspire curiosity and a deeper understanding of space for learners of all ages.
+                </p>
+              </div>
+              <div class="profile-btn">
+                <a href="https://www.facebook.com/profile.php?id=100010166077637&mibextid=ZbWKwL" target="_blank"><button class="chatbtn" id="chatBtn"><i class="fa fa-comment"></i> Chat</button></a>
+              </div>
+              <div class="user-rating d-flex justify-content-between">
+                <h3 class="rating">Points</h3>
+                  <span class="no-of-user-rate"><span>123</span></span>
+                
+      
+              </div>
+            </div>
+      
+          </div>
+          <div class="right-side">
+      
+            <div class="nav">
+              <ul>
+                <li onclick="tabs(0)" class="user-post active">Description</li>
+                <li onclick="tabs(1)" class="user-review">Importance</li>
+                <li onclick="tabs(2)" class="user-setting">Features</li>
+              </ul>
+            </div>
+            <div class="profile-body">
+              <div class="profile-posts tab">
+                <h1>Description</h1>
+                <p>Our educational space website offers a comprehensive and engaging experience for exploring the universe around us. With interactive content covering various aspects of space, users can learn about planets, stars, black holes, and cosmic phenomena in a simplified and captivating manner</p>
+              </div>
+              <div class="profile-reviews tab">
+                <h1>Importance</h1>
+                <p>Promoting Scientific Awareness: Provides accurate and reliable information that contributes to spreading knowledge about the universe, inspiring users to explore this fascinating field.
+                </p>
+              </div>
+              <div class="profile-settings tab">
+                <div class="account-setting">
+                  <h1>Features</h1>
+                  <p>Interactive Content: 3D simulations, star maps, and virtual experiences that engage users in learning.</p>
+                  <p>User-Friendly Experience: Simple and attractive design with easy navigation for seamless browsing.
+                  </p>
+                  <p>Regular Updates: Periodic updates with new scientific information and the latest discoveries.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of main sec -->
+    
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/home.js"></script>
+<script src="js/profile.js"></script>
+</body>
+</html>

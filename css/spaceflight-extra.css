@@ -1,0 +1,248 @@
+/* .eva>svg g.is-active circle,
+.eva>svg g:hover circle {
+    fill: #0052b3 !important;
+} */
+
+@media (min-width: 768px) {
+
+    /* eva hud callot css */
+    [data-callout=evahud],
+    [data-callout=logo] {
+        top: 180px;
+        right: 20px;
+        width: 32%
+    }
+
+    /* eva visor callout css */
+    [data-callout=evavisor] {
+        top: 200px;
+        left: 25px
+    }
+
+    [data-callout=evavisor]>div {
+        max-width: 272px
+    }
+
+    /* eva mobility callout css */
+    [data-callout=evamobility] {
+        top: 260px;
+        right: 20px;
+        width: 30%
+    }
+
+    /* eva dual capability callout css */
+    [data-callout=evadualcapability] {
+        top: 260px;
+        right: 20px;
+        width: 30%
+    }
+
+    /* eva zippers callout css */
+    [data-callout=evazippers] {
+        top: 300px;
+        left: 20px
+    }
+
+    [data-callout=evazippers]>div {
+        max-width: 34vw
+    }
+
+    /* eva outerlayer callout css */
+    [data-callout=evaouterlayer] {
+        bottom: 160px;
+        left: 25px
+    }
+
+    [data-callout=evaouterlayer]>div {
+        max-width: 330px
+    }
+
+    /* eva thermal callout css */
+    [data-callout=evathermal] {
+        bottom: 240px;
+        right: 20px;
+        width: 34%
+    }
+
+    /* eva boots callout css */
+    [data-callout=evaboots] {
+        bottom: 160px;
+        left: 25px
+    }
+
+    [data-callout=evaboots]>div {
+        max-width: 330px
+    }
+}
+
+@media (min-width: 1260px) {
+
+    /* eva hud callout css */
+    [data-callout=evahud] {
+        position: absolute;
+        top: 195px;
+        width: 500px;
+        right: auto;
+        left: calc(50% + 38px);
+        text-align: right
+    }
+
+    [data-callout=evahud] svg {
+        position: absolute;
+        bottom: calc(100% - 42px);
+        right: 0;
+        display: block
+    }
+
+    [data-callout=evahud]>div {
+        max-width: 390px;
+        margin-left: auto
+    }
+
+    /* eva visor callout css */
+    [data-callout=evavisor] {
+        position: absolute;
+        top: 162px;
+        width: 431px;
+        left: auto;
+        right: calc(50% + 40px)
+    }
+
+    [data-callout=evavisor] svg {
+        position: absolute;
+        bottom: calc(100% - 42px);
+        right: 0;
+        display: block
+    }
+
+    [data-callout=evavisor]>div {
+        max-width: 394px
+    }
+
+    /* eva mobility callout css */
+    [data-callout=evamobility] {
+        position: absolute;
+        top: 250px;
+        width: 480px;
+        right: auto;
+        left: calc(50% + 66px);
+        text-align: right
+    }
+
+    [data-callout=evamobility] svg {
+        position: absolute;
+        bottom: calc(100% - 42px);
+        right: 0;
+        display: block
+    }
+
+    [data-callout=evamobility]>div {
+        max-width: 360px;
+        margin-left: auto
+    }
+
+    /* eva dual capability callout css */
+    [data-callout=evadualcapability] {
+        position: absolute;
+        top: 425px;
+        width: 480px;
+        right: auto;
+        left: calc(50% + 80px);
+        text-align: right
+    }
+
+    [data-callout=evadualcapability] svg {
+        position: absolute;
+        bottom: calc(100% - 42px);
+        right: 0;
+        display: block
+    }
+
+    [data-callout=evadualcapability]>div {
+        max-width: 360px;
+        margin-left: auto
+    }
+
+    /* eva zippers callout css */
+    [data-callout=evazippers] {
+        position: absolute;
+        top: 325px;
+        width: 531px;
+        left: auto;
+        right: calc(50% + 60px)
+    }
+
+    [data-callout=evazippers] svg {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        display: block
+    }
+
+    [data-callout=evazippers]>div {
+        max-width: 394px
+    }
+
+    /* eva outer layer callout css */
+    [data-callout=evaouterlayer] {
+        position: absolute;
+        bottom: 165px;
+        width: 560px;
+        left: auto;
+        right: calc(53.5%)
+    }
+
+    [data-callout=evaouterlayer] svg {
+        position: absolute;
+        bottom: calc(100% - 42px);
+        right: 0;
+        display: block;
+        padding-left: 30px;
+    }
+
+    [data-callout=evaouterlayer]>div {
+        max-width: 429px
+    }
+
+    /* eva thermal callout css */
+    [data-callout=evathermal] {
+        position: absolute;
+        bottom: 98px;
+        width: 480px;
+        right: auto;
+        left: calc(50% + 120px);
+        text-align: right
+    }
+
+    [data-callout=evathermal] svg {
+        position: absolute;
+        bottom: calc(100% - 42px);
+        right: 0;
+        display: block
+    }
+
+    [data-callout=evathermal]>div {
+        max-width: 380px;
+        margin-left: auto
+    }
+
+    /* eva boots callout css */
+    [data-callout=evaboots] {
+        position: absolute;
+        bottom: 55px;
+        width: 560px;
+        left: auto;
+        right: calc(50% + 10px)
+    }
+
+    [data-callout=evaboots] svg {
+        position: absolute;
+        bottom: calc(80% - 42px);
+        right: 0;
+        display: block
+    }
+
+    [data-callout=evaboots]>div {
+        max-width: 429px
+    }
+}

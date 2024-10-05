@@ -1,0 +1,73 @@
+.count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter {
+    font-size: 80px;
+    margin: 20px;
+
+    font-weight: bold;
+}
+
+.count .element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.count .element p{
+    font-size: 25px;
+}
+.carousel-caption{
+    text-align: left !important; 
+    width: 35%;
+    margin-bottom: 80px;
+}
+.carousel-caption p{
+    margin-bottom: 80px;
+}
+.infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infor p{
+    margin: auto 0;
+}
+.photo-head{
+    margin-top: 80px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+.links a:hover{
+    color: #ffffff;
+}
+.photo-body img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+ #i2{
+    display: none;
+}
+.trip .card{
+    border: none;
+    box-shadow: none;
+    /* transition: transform 0.3s; */
+    text-align: left;
+
+}

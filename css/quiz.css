@@ -1,0 +1,8 @@
+.strip{
+    margin-top: 30em;
+}
+iframe{
+    width: 100%;
+    height: 100vh;
+    display: none;
+}

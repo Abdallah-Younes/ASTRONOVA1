@@ -1,0 +1,158 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec{
+    margin-top: 30em;
+}
+.sec .container .row .col{
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    padding: 3em;
+}
+.sec .container .row .hb{
+    border-bottom: none;
+}
+.sec .container .row .hr{
+    border-right: none;
+}
+.sec .container .row .col .number_count{
+    color: #959599;
+    font-weight: 300;
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    font-family: "DM Mono", monospace;
+    background-color: transparent;
+    margin-bottom: .3rem;
+    font-size: 48px;
+}
+.sec .container .row .col .numbered_grid_title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+}
+.sec .container .row .col .thing_fact{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sec .container .row .col .thing_fact p{
+    font-family: "Public Sans", Metropolis, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: .95rem;
+    line-height: 1.55;
+    color: inherit;
+}
+.sec .container .row .col-img{
+    background-image: url(../Images/_astronomy\ _wallpaper\(JPEG-2\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec .container .row .col-img1{
+    background-image: url(../Images/istockphoto-481229372-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* تعيين نمط للعنصر العام */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+/* استخدام Grid لتوزيع الأعمدة */
+.grid-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* توسيط المحتوى على الشاشات الكبيرة */
+.desktop:grid-col-8 {
+    grid-column: span 8;
+    justify-self: center;
+}
+
+/* إضافة تباعد بين الأقسام */
+.margin-top-5 {
+    margin-top: 50px;
+}
+
+.margin-bottom-2 {
+    margin-bottom: 20px;
+}
+
+/* تباعد رأسي بين العناصر */
+.margin-y-3 {
+    margin: 30px 0;
+}
+
+/* تباعد داخلي */
+.smd-padding-x-responsive {
+    padding: 0 15px;
+}
+
+/* تصميم العناوين */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* تصميم الفقرات */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* تصميم القوائم */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+li span {
+    display: inline-block;
+    padding: 10px;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+    font-size: large;
+}
+
+/* تحسين العرض على الشاشات الأكبر */
+@media (min-width: 768px) {
+    .grid-row {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .grid-col-12 {
+        grid-column: span 12;
+    }
+
+    .desktop:grid-col-8 {
+        grid-column: span 8;
+    }
+
+    .desktop:grid-offset-2 {
+        grid-column: 3 / span 8;
+    }
+}
